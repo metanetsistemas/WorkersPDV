@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-Limpeza-8d092b19-c0b1-4c3d-b7ce-972c55b10180</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="8.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageReference Include="Quartz" Version="3.8.1" />
+    <PackageReference Include="Quartz.Extensions.DependencyInjection" Version="3.8.1" />
+    <PackageReference Include="Quartz.Extensions.Hosting" Version="3.8.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Meta\AtualizacaoBD\ScriptsAutomaticos\Function\" />
+    <Folder Include="Meta\AtualizacaoBD\ScriptsAutomaticos\Procedure\" />
+    <Folder Include="Meta\AtualizacaoBD\ScriptsGerenciados\" />
+    <Folder Include="Meta\Controllers\" />
+    <Folder Include="Meta\Util\" />
+    <Folder Include="Meta\Repositorios\Modelo\" />
+  </ItemGroup>
+</Project>
