@@ -24,4 +24,13 @@
     <Folder Include="Meta\Util\" />
     <Folder Include="Meta\Repositorios\Modelo\" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MetaAtualizacao">
+      <HintPath>MetaAtualizacao.dll</HintPath>
+    </Reference>
+    <Reference Include="Utilitarios">
+      <HintPath>Utilitarios.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>

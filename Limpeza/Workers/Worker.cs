@@ -1,5 +1,7 @@
 ﻿using Limpeza.Meta.Repositorios;
 using Quartz;
+using Utilitarios.Meta.Extensions;
+
 
 namespace Limpeza.Workers
 {
