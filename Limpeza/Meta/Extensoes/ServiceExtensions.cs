@@ -2,6 +2,8 @@
 using Limpeza.Meta.Repositorios;
 using Quartz;
 using Limpeza.Workers;
+using Limpeza.Meta.Repositorios.Interfaces;
+using Limpeza.Meta.RegraTarefas.LimpezaDadosIpiranga;
 
 namespace Limpeza.Meta.Extensoes
 {
@@ -11,16 +13,30 @@ namespace Limpeza.Meta.Extensoes
         {
             services.AddSingleton<IDapperContext, DapperContext>();
             services.AddSingleton<IWorkerRepository, WorkerRepository>();
+
+            services.AddSingleton<IRegraTarefaLimpezaDadosIpiranga, RegraTarefaLimpezaDadosIpiranga>();
+            
+            services.AddHostedService<Worker>();
+        }
+
+        public static void ConfigurarQuartz(this IServiceCollection services)
+        {
             services.AddQuartz(q =>
             {
-                q.AddJob<CleanupJob>(opts => opts.WithIdentity(new JobKey("CleanupJob")));
+                q.AddJob<LimpezaTabelaIpiranga>(opts => opts.WithIdentity(new JobKey("LimpezaTabelaIpiranga")));
                 q.AddTrigger(opts => opts
-                    .ForJob("CleanupJob")
-                    .WithIdentity("CleanupJob-trigger")
-                    .WithCronSchedule("0 0 21 ? * FRI"));
+                    .ForJob("LimpezaTabelaIpiranga")
+                    .WithIdentity("LimpezaTabelaIpiranga-trigger")
+                    .WithCronSchedule("0 25 15 ? * TUE"));
             });
+
             services.AddQuartzHostedService(q => q.WaitForJobsToComplete = true);
-            services.AddHostedService<Worker>();
+        }
+
+        public static void CriarBancoDados(this IServiceProvider serviceProvider)
+        {
+            var dapperContext = serviceProvider.GetRequiredService<IDapperContext>() as DapperContext;
+            dapperContext?.EnsureDatabaseCreated();
         }
     }
 }

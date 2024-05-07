@@ -8,6 +8,25 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Meta\AtualizacaoBD\**" />
+    <Compile Remove="Meta\Controllers\**" />
+    <Compile Remove="Meta\Repositorios\Modelo\**" />
+    <Compile Remove="Meta\Util\**" />
+    <Content Remove="Meta\AtualizacaoBD\**" />
+    <Content Remove="Meta\Controllers\**" />
+    <Content Remove="Meta\Repositorios\Modelo\**" />
+    <Content Remove="Meta\Util\**" />
+    <EmbeddedResource Remove="Meta\AtualizacaoBD\**" />
+    <EmbeddedResource Remove="Meta\Controllers\**" />
+    <EmbeddedResource Remove="Meta\Repositorios\Modelo\**" />
+    <EmbeddedResource Remove="Meta\Util\**" />
+    <None Remove="Meta\AtualizacaoBD\**" />
+    <None Remove="Meta\Controllers\**" />
+    <None Remove="Meta\Repositorios\Modelo\**" />
+    <None Remove="Meta\Util\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Dapper" Version="2.1.35" />
     <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="8.0.4" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
@@ -15,15 +34,6 @@
     <PackageReference Include="Quartz.Extensions.DependencyInjection" Version="3.8.1" />
     <PackageReference Include="Quartz.Extensions.Hosting" Version="3.8.1" />
     <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.1.8" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Meta\AtualizacaoBD\ScriptsAutomaticos\Function\" />
-    <Folder Include="Meta\AtualizacaoBD\ScriptsAutomaticos\Procedure\" />
-    <Folder Include="Meta\AtualizacaoBD\ScriptsGerenciados\" />
-    <Folder Include="Meta\Controllers\" />
-    <Folder Include="Meta\Util\" />
-    <Folder Include="Meta\Repositorios\Modelo\" />
   </ItemGroup>
 
   <ItemGroup>

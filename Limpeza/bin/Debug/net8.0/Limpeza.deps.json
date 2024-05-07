@@ -14,9 +14,7 @@
           "Quartz": "3.8.1",
           "Quartz.Extensions.DependencyInjection": "3.8.1",
           "Quartz.Extensions.Hosting": "3.8.1",
-          "SQLitePCLRaw.bundle_e_sqlite3": "2.1.8",
-          "MetaAtualizacao": "1.0.0.0",
-          "Utilitarios": "1.0.0.0"
+          "SQLitePCLRaw.bundle_e_sqlite3": "2.1.8"
         },
         "runtime": {
           "Limpeza.dll": {}
@@ -715,22 +713,6 @@
             "fileVersion": "6.0.21.52210"
           }
         }
-      },
-      "MetaAtualizacao/1.0.0.0": {
-        "runtime": {
-          "MetaAtualizacao.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Utilitarios/1.0.0.0": {
-        "runtime": {
-          "Utilitarios.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
       }
     }
   },
@@ -1075,16 +1057,6 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
-    },
-    "MetaAtualizacao/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Utilitarios/1.0.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

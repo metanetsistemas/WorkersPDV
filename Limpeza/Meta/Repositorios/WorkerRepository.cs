@@ -1,5 +1,6 @@
 ﻿using Dapper;
 using Limpeza.Meta.Repositorios.BancoDados;
+using Limpeza.Meta.Repositorios.Interfaces;
 
 namespace Limpeza.Meta.Repositorios
 {
@@ -28,11 +29,5 @@ namespace Limpeza.Meta.Repositorios
                 return connection.QuerySingleOrDefault<DateTime?>("SELECT LastExecutionTime FROM Workers WHERE Id = @Id", new { Id = workerId });
             }
         }
-    }
-
-    public interface IWorkerRepository
-    {
-        void InsertWorkerExecution(int workerId, DateTime lastExecutionTime);
-        DateTime? GetLastExecutionTime(int workerId);
     }
 }
