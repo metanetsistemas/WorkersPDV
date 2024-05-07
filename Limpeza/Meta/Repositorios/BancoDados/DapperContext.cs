@@ -1,4 +1,5 @@
 ﻿using Microsoft.Data.Sqlite;
+using SQLitePCL;
 using System.Data;
 
 namespace Limpeza.Meta.Repositorios.BancoDados
@@ -10,6 +11,7 @@ namespace Limpeza.Meta.Repositorios.BancoDados
 
         public DapperContext(IConfiguration configuration)
         {
+            Batteries.Init(); // Inicializando aqui
             _configuration = configuration;
             _connectionString = _configuration.GetConnectionString("DefaultConnection") ?? string.Empty;
         }

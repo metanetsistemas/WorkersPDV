@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Mateus Dev\\source\\repos\\WorkersPDV\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BB9664E8-8FD1-4C0E-AE5B-6F1DBFF31C17}|Limpeza\\Limpeza.csproj|c:\\users\\mateus dev\\source\\repos\\workerspdv\\limpeza\\meta\\repositorios\\bancodados\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB9664E8-8FD1-4C0E-AE5B-6F1DBFF31C17}|Limpeza\\Limpeza.csproj|solutionrelative:limpeza\\meta\\repositorios\\bancodados\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BB9664E8-8FD1-4C0E-AE5B-6F1DBFF31C17}|Limpeza\\Limpeza.csproj|c:\\users\\mateus dev\\source\\repos\\workerspdv\\limpeza\\workers\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB9664E8-8FD1-4C0E-AE5B-6F1DBFF31C17}|Limpeza\\Limpeza.csproj|solutionrelative:limpeza\\workers\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -51,6 +55,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DapperContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mateus Dev\\source\\repos\\WorkersPDV\\Limpeza\\Meta\\Repositorios\\BancoDados\\DapperContext.cs",
+              "RelativeDocumentMoniker": "Limpeza\\Meta\\Repositorios\\BancoDados\\DapperContext.cs",
+              "ToolTip": "C:\\Users\\Mateus Dev\\source\\repos\\WorkersPDV\\Limpeza\\Meta\\Repositorios\\BancoDados\\DapperContext.cs",
+              "RelativeToolTip": "Limpeza\\Meta\\Repositorios\\BancoDados\\DapperContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwA0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T12:19:43.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Worker.cs",
               "DocumentMoniker": "C:\\Users\\Mateus Dev\\source\\repos\\WorkersPDV\\Limpeza\\Workers\\Worker.cs",
               "RelativeDocumentMoniker": "Limpeza\\Workers\\Worker.cs",

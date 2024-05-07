@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "E2Psj3XlaCStlNr8dgxki2hYTdBujcRN6cKWYTM+oT9Zf2J96ykc/ErSoGR7jn3uWndUTLkx4jWfq4IlwXk0ug==",
+  "dgSpecHash": "uK1FEVcRwBPzJMEvTpp3L47uJG3l4RlsktelKVsL8uWoAxCxye1BkwxXGcvxcX0LIs/OZzoOM2VLkwYjrlQNfw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mateus Dev\\source\\repos\\WorkersPDV\\Limpeza\\Limpeza.csproj",
   "expectedPackageFiles": [
@@ -37,7 +37,10 @@
     "C:\\Users\\Mateus Dev\\.nuget\\packages\\quartz\\3.8.1\\quartz.3.8.1.nupkg.sha512",
     "C:\\Users\\Mateus Dev\\.nuget\\packages\\quartz.extensions.dependencyinjection\\3.8.1\\quartz.extensions.dependencyinjection.3.8.1.nupkg.sha512",
     "C:\\Users\\Mateus Dev\\.nuget\\packages\\quartz.extensions.hosting\\3.8.1\\quartz.extensions.hosting.3.8.1.nupkg.sha512",
-    "C:\\Users\\Mateus Dev\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
+    "C:\\Users\\Mateus Dev\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.8\\sqlitepclraw.bundle_e_sqlite3.2.1.8.nupkg.sha512",
+    "C:\\Users\\Mateus Dev\\.nuget\\packages\\sqlitepclraw.core\\2.1.8\\sqlitepclraw.core.2.1.8.nupkg.sha512",
+    "C:\\Users\\Mateus Dev\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.8\\sqlitepclraw.lib.e_sqlite3.2.1.8.nupkg.sha512",
+    "C:\\Users\\Mateus Dev\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.8\\sqlitepclraw.provider.e_sqlite3.2.1.8.nupkg.sha512",
     "C:\\Users\\Mateus Dev\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
     "C:\\Users\\Mateus Dev\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "C:\\Users\\Mateus Dev\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
