@@ -1,6 +1,7 @@
 ﻿using Dapper;
 using Limpeza.Meta.Repositorios.BancoDados;
 using Limpeza.Meta.Repositorios.Interfaces;
+using System;
 
 namespace Limpeza.Meta.Repositorios
 {
@@ -13,12 +14,17 @@ namespace Limpeza.Meta.Repositorios
             _context = context;
         }
 
-        public void InsertWorkerExecution(int workerId, DateTime lastExecutionTime)
+        public void InsertOrUpdateWorkerExecution(int workerId, DateTime lastExecutionTime)
         {
             using (var connection = _context.CreateConnection())
             {
-                connection.Execute("INSERT INTO Workers (Id, LastExecutionTime) VALUES (@Id, @LastExecutionTime)",
-                                   new { Id = workerId, LastExecutionTime = lastExecutionTime });
+                // Utiliza o comando INSERT OR REPLACE para realizar um "upsert"
+                connection.Execute(@"
+                    INSERT INTO Workers (Id, LastExecutionTime)
+                    VALUES (@Id, @LastExecutionTime)
+                    ON CONFLICT(Id) DO UPDATE SET
+                    LastExecutionTime = excluded.LastExecutionTime;
+                ", new { Id = workerId, LastExecutionTime = lastExecutionTime });
             }
         }
 

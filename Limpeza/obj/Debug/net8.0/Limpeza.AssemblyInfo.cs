@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Limpeza")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1081147e0a6889e78b4bbe97b350d459bdbc593")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8b43a56f79d4d306c3bc539bbf77038e8d31771")]
 [assembly: System.Reflection.AssemblyProductAttribute("Limpeza")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Limpeza")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

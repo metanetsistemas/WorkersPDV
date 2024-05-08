@@ -1,12 +1,6 @@
 ﻿using Limpeza.Meta.RegraTarefas;
-using Limpeza.Meta.RegraTarefas.LimpezaDadosIpiranga;
 using Limpeza.Meta.Repositorios.Interfaces;
 using Quartz;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Limpeza.Workers
 {
@@ -31,7 +25,7 @@ namespace Limpeza.Workers
 
         protected void DefinirUltimaExecucao()
         {
-            _workerRepository.InsertWorkerExecution(this.ChaveTarefa, DateTimeOffset.Now.DateTime);
+            _workerRepository.InsertOrUpdateWorkerExecution(this.ChaveTarefa, DateTimeOffset.Now.DateTime);
         }
 
         protected abstract int ChaveTarefa { get; }

@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Metaposto\\source\\repos\\WorkersPDV\\Limpeza\\Limpeza.csproj": {}
+    "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Limpeza.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Metaposto\\source\\repos\\WorkersPDV\\Limpeza\\Limpeza.csproj": {
+    "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Limpeza.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Metaposto\\source\\repos\\WorkersPDV\\Limpeza\\Limpeza.csproj",
+        "projectUniqueName": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Limpeza.csproj",
         "projectName": "Limpeza",
-        "projectPath": "C:\\Users\\Metaposto\\source\\repos\\WorkersPDV\\Limpeza\\Limpeza.csproj",
-        "packagesPath": "C:\\Users\\Metaposto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Metaposto\\source\\repos\\WorkersPDV\\Limpeza\\obj\\",
+        "projectPath": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Limpeza.csproj",
+        "packagesPath": "C:\\Users\\Mateus Dev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Metaposto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mateus Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -42,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -93,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

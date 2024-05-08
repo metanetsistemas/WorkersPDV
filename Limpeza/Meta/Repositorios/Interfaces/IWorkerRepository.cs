@@ -2,7 +2,7 @@
 {
     public interface IWorkerRepository
     {
-        void InsertWorkerExecution(int workerId, DateTime lastExecutionTime);
+        void InsertOrUpdateWorkerExecution(int workerId, DateTime lastExecutionTime);
         DateTime? GetLastExecutionTime(int workerId);
     }
 }
