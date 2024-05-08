@@ -8,26 +8,27 @@ namespace Limpeza.Workers
     {
         protected IRegraTarefa RegraTarefa { get; private set; }
 
-        private IWorkerRepository _workerRepository;
+        private readonly IWorkerRepository _workerRepository;
+        private readonly string _workerName;
 
-        public AJob(IWorkerRepository workerRepository, IRegraTarefa regraTarefa)
+        public AJob(IWorkerRepository workerRepository, IRegraTarefa regraTarefa, string workerName)
         {
-            this._workerRepository = workerRepository;
-            this.RegraTarefa = regraTarefa;
+            _workerRepository = workerRepository;
+            RegraTarefa = regraTarefa;
+            _workerName = workerName;
         }
 
         public async Task Execute(IJobExecutionContext context)
         {
-            await this.RegraTarefa.Executar(context);
+            await RegraTarefa.Executar(context);
 
-            this.DefinirUltimaExecucao();
+            DefinirUltimaExecucao();
         }
 
         protected void DefinirUltimaExecucao()
         {
-            _workerRepository.InsertOrUpdateWorkerExecution(this.ChaveTarefa, DateTimeOffset.Now.DateTime);
+            var workerId = _workerRepository.GetOrCreateWorkerId(_workerName);
+            _workerRepository.InsertOrUpdateWorkerExecution(workerId, DateTimeOffset.Now.DateTime);
         }
-
-        protected abstract int ChaveTarefa { get; }
     }
 }

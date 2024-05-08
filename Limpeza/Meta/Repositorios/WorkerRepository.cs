@@ -28,6 +28,31 @@ namespace Limpeza.Meta.Repositorios
             }
         }
 
+        public int GetOrCreateWorkerId(string workerName)
+        {
+            using (var connection = _context.CreateConnection())
+            {
+                // Verificar se o worker já existe
+                var workerId = connection.QuerySingleOrDefault<int?>(
+                    "SELECT Id FROM Workers WHERE Name = @Name",
+                    new { Name = workerName });
+
+                if (workerId.HasValue)
+                {
+                    return workerId.Value;
+                }
+                else
+                {
+                    // Inserir novo worker e obter o ID
+                    connection.Execute(
+                        "INSERT INTO Workers (Name) VALUES (@Name)",
+                        new { Name = workerName });
+
+                    return connection.QuerySingle<int>("SELECT last_insert_rowid()");
+                }
+            }
+        }
+
         public DateTime? GetLastExecutionTime(int workerId)
         {
             using (var connection = _context.CreateConnection())
