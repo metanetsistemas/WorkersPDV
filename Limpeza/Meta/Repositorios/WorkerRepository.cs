@@ -14,17 +14,17 @@ namespace Limpeza.Meta.Repositorios
             _context = context;
         }
 
-        public void InsertOrUpdateWorkerExecution(int workerId, DateTime lastExecutionTime)
+        public void InsertOrUpdateWorkerExecution(int workerId, string workerName, DateTime lastExecutionTime)
         {
             using (var connection = _context.CreateConnection())
             {
                 // Utiliza o comando INSERT OR REPLACE para realizar um "upsert"
                 connection.Execute(@"
-                    INSERT INTO Workers (Id, LastExecutionTime)
-                    VALUES (@Id, @LastExecutionTime)
+                    INSERT INTO Workers (Id, WorkerName, LastExecutionTime)
+                    VALUES (@Id, @WorkerName, @LastExecutionTime)
                     ON CONFLICT(Id) DO UPDATE SET
                     LastExecutionTime = excluded.LastExecutionTime;
-                ", new { Id = workerId, LastExecutionTime = lastExecutionTime });
+                ", new { Id = workerId, WorkerName = workerName,  LastExecutionTime = lastExecutionTime });
             }
         }
 
@@ -34,8 +34,8 @@ namespace Limpeza.Meta.Repositorios
             {
                 // Verificar se o worker já existe
                 var workerId = connection.QuerySingleOrDefault<int?>(
-                    "SELECT Id FROM Workers WHERE Name = @Name",
-                    new { Name = workerName });
+                    "SELECT Id FROM Workers WHERE WorkerName = @WorkerName",
+                    new { WorkerName = workerName });
 
                 if (workerId.HasValue)
                 {
@@ -45,8 +45,8 @@ namespace Limpeza.Meta.Repositorios
                 {
                     // Inserir novo worker e obter o ID
                     connection.Execute(
-                        "INSERT INTO Workers (Name) VALUES (@Name)",
-                        new { Name = workerName });
+                        "INSERT INTO Workers (WorkerName) VALUES (@WorkerName)",
+                        new { WorkerName = workerName });
 
                     return connection.QuerySingle<int>("SELECT last_insert_rowid()");
                 }

@@ -16,7 +16,7 @@ namespace Limpeza.Workers
             _schedulerFactory = schedulerFactory;
             _logger = logger;
             _repository = repository;
-            _scheduler = null; // Inicializado como nulo
+            _scheduler = null; 
         }
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)

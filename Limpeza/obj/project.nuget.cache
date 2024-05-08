@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xflJ4Surewx0qfuWaPBL3SGUFOfTaWjZtcKAI5O0gYJPqnqV0+z2EJ5EK8OSFVgrDnXuNY+I/XDp/bmkPWBrbw==",
+  "dgSpecHash": "8cCdI7SkDrkfgpJtFSDq9cM4QLg1hPlxDeRsjvSojYJOJmJZyL8+rMi7eusZmLBGET//4DQO7n4ZltrJKGs+Fg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\TarefasPDV.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "C:\\Users\\Mateus Dev\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\8.0.0\\microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
     "C:\\Users\\Mateus Dev\\.nuget\\packages\\microsoft.extensions.hosting\\8.0.0\\microsoft.extensions.hosting.8.0.0.nupkg.sha512",
     "C:\\Users\\Mateus Dev\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\8.0.0\\microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Mateus Dev\\.nuget\\packages\\microsoft.extensions.hosting.windowsservices\\8.0.0\\microsoft.extensions.hosting.windowsservices.8.0.0.nupkg.sha512",
     "C:\\Users\\Mateus Dev\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\Mateus Dev\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Mateus Dev\\.nuget\\packages\\microsoft.extensions.logging.configuration\\8.0.0\\microsoft.extensions.logging.configuration.8.0.0.nupkg.sha512",
@@ -49,6 +50,7 @@
     "C:\\Users\\Mateus Dev\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
     "C:\\Users\\Mateus Dev\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
     "C:\\Users\\Mateus Dev\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mateus Dev\\.nuget\\packages\\system.serviceprocess.servicecontroller\\8.0.0\\system.serviceprocess.servicecontroller.8.0.0.nupkg.sha512",
     "C:\\Users\\Mateus Dev\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\Mateus Dev\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\Mateus Dev\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"

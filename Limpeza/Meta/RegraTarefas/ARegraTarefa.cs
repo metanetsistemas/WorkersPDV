@@ -1,11 +1,5 @@
-﻿using Limpeza.Meta.Repositorios.Interfaces;
-using Limpeza.Workers;
+﻿using Limpeza.Workers;
 using Quartz;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Limpeza.Meta.RegraTarefas
 {

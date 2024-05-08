@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB9664E8-8FD1-4C0E-AE5B-6F1DBFF31C17}|Limpeza\\TarefasPDV.csproj|c:\\users\\mateus dev\\onedrive - linx sa\\documentos\\github\\workerspdv\\workerspdv\\limpeza\\workers\\limpezatabelaipiranga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB9664E8-8FD1-4C0E-AE5B-6F1DBFF31C17}|Limpeza\\TarefasPDV.csproj|solutionrelative:limpeza\\workers\\limpezatabelaipiranga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB9664E8-8FD1-4C0E-AE5B-6F1DBFF31C17}|Limpeza\\TarefasPDV.csproj|c:\\users\\mateus dev\\onedrive - linx sa\\documentos\\github\\workerspdv\\workerspdv\\limpeza\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB9664E8-8FD1-4C0E-AE5B-6F1DBFF31C17}|Limpeza\\TarefasPDV.csproj|solutionrelative:limpeza\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB9664E8-8FD1-4C0E-AE5B-6F1DBFF31C17}|Limpeza\\TarefasPDV.csproj|c:\\users\\mateus dev\\onedrive - linx sa\\documentos\\github\\workerspdv\\workerspdv\\limpeza\\workers\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB9664E8-8FD1-4C0E-AE5B-6F1DBFF31C17}|Limpeza\\TarefasPDV.csproj|solutionrelative:limpeza\\workers\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB9664E8-8FD1-4C0E-AE5B-6F1DBFF31C17}|Limpeza\\TarefasPDV.csproj|c:\\users\\mateus dev\\onedrive - linx sa\\documentos\\github\\workerspdv\\workerspdv\\limpeza\\meta\\regratarefas\\aregratarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB9664E8-8FD1-4C0E-AE5B-6F1DBFF31C17}|Limpeza\\TarefasPDV.csproj|solutionrelative:limpeza\\meta\\regratarefas\\aregratarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB9664E8-8FD1-4C0E-AE5B-6F1DBFF31C17}|Limpeza\\TarefasPDV.csproj|c:\\users\\mateus dev\\onedrive - linx sa\\documentos\\github\\workerspdv\\workerspdv\\limpeza\\meta\\extensoes\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB9664E8-8FD1-4C0E-AE5B-6F1DBFF31C17}|Limpeza\\TarefasPDV.csproj|solutionrelative:limpeza\\meta\\extensoes\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB9664E8-8FD1-4C0E-AE5B-6F1DBFF31C17}|Limpeza\\Limpeza.csproj|c:\\users\\mateus dev\\onedrive - linx sa\\documentos\\github\\workerspdv\\workerspdv\\limpeza\\workers\\ajob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +25,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{BB9664E8-8FD1-4C0E-AE5B-6F1DBFF31C17}|Limpeza\\TarefasPDV.csproj|c:\\users\\mateus dev\\onedrive - linx sa\\documentos\\github\\workerspdv\\workerspdv\\limpeza\\meta\\repositorios\\workerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB9664E8-8FD1-4C0E-AE5B-6F1DBFF31C17}|Limpeza\\TarefasPDV.csproj|solutionrelative:limpeza\\meta\\repositorios\\workerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB9664E8-8FD1-4C0E-AE5B-6F1DBFF31C17}|Limpeza\\TarefasPDV.csproj|c:\\users\\mateus dev\\onedrive - linx sa\\documentos\\github\\workerspdv\\workerspdv\\limpeza\\workers\\limpezatabelaipiranga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB9664E8-8FD1-4C0E-AE5B-6F1DBFF31C17}|Limpeza\\TarefasPDV.csproj|solutionrelative:limpeza\\workers\\limpezatabelaipiranga.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB9664E8-8FD1-4C0E-AE5B-6F1DBFF31C17}|Limpeza\\TarefasPDV.csproj|c:\\users\\mateus dev\\onedrive - linx sa\\documentos\\github\\workerspdv\\workerspdv\\limpeza\\meta\\repositorios\\interfaces\\iworkerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,34 +46,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WorkerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Meta\\Repositorios\\WorkerRepository.cs",
-              "RelativeDocumentMoniker": "Limpeza\\Meta\\Repositorios\\WorkerRepository.cs",
-              "ToolTip": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Meta\\Repositorios\\WorkerRepository.cs",
-              "RelativeToolTip": "Limpeza\\Meta\\Repositorios\\WorkerRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T14:53:06.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IWorkerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Meta\\Repositorios\\Interfaces\\IWorkerRepository.cs",
-              "RelativeDocumentMoniker": "Limpeza\\Meta\\Repositorios\\Interfaces\\IWorkerRepository.cs",
-              "ToolTip": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Meta\\Repositorios\\Interfaces\\IWorkerRepository.cs",
-              "RelativeToolTip": "Limpeza\\Meta\\Repositorios\\Interfaces\\IWorkerRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T14:52:06.194Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
@@ -93,38 +83,116 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LimpezaTabelaIpiranga.cs",
-              "DocumentMoniker": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Workers\\LimpezaTabelaIpiranga.cs",
-              "RelativeDocumentMoniker": "Limpeza\\Workers\\LimpezaTabelaIpiranga.cs",
-              "ToolTip": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Workers\\LimpezaTabelaIpiranga.cs",
-              "RelativeToolTip": "Limpeza\\Workers\\LimpezaTabelaIpiranga.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Program.cs",
+              "RelativeDocumentMoniker": "Limpeza\\Program.cs",
+              "ToolTip": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Program.cs",
+              "RelativeToolTip": "Limpeza\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T12:53:42.062Z",
+              "WhenOpened": "2024-05-08T15:06:32.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Meta\\Extensoes\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Limpeza\\Meta\\Extensoes\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Meta\\Extensoes\\ServiceExtensions.cs",
+              "RelativeToolTip": "Limpeza\\Meta\\Extensoes\\ServiceExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T15:00:02.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ARegraTarefa.cs",
+              "DocumentMoniker": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Meta\\RegraTarefas\\ARegraTarefa.cs",
+              "RelativeDocumentMoniker": "Limpeza\\Meta\\RegraTarefas\\ARegraTarefa.cs",
+              "ToolTip": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Meta\\RegraTarefas\\ARegraTarefa.cs",
+              "RelativeToolTip": "Limpeza\\Meta\\RegraTarefas\\ARegraTarefa.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T15:00:00.786Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Workers\\Worker.cs",
+              "RelativeDocumentMoniker": "Limpeza\\Workers\\Worker.cs",
+              "ToolTip": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Workers\\Worker.cs",
+              "RelativeToolTip": "Limpeza\\Workers\\Worker.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowBIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:59:19.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WorkerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Meta\\Repositorios\\WorkerRepository.cs",
+              "RelativeDocumentMoniker": "Limpeza\\Meta\\Repositorios\\WorkerRepository.cs",
+              "ToolTip": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Meta\\Repositorios\\WorkerRepository.cs",
+              "RelativeToolTip": "Limpeza\\Meta\\Repositorios\\WorkerRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAIA9wBwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:53:06.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IWorkerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Meta\\Repositorios\\Interfaces\\IWorkerRepository.cs",
+              "RelativeDocumentMoniker": "Limpeza\\Meta\\Repositorios\\Interfaces\\IWorkerRepository.cs",
+              "ToolTip": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Meta\\Repositorios\\Interfaces\\IWorkerRepository.cs",
+              "RelativeToolTip": "Limpeza\\Meta\\Repositorios\\Interfaces\\IWorkerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:52:06.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AJob.cs",
               "DocumentMoniker": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Workers\\AJob.cs",
               "RelativeDocumentMoniker": "Limpeza\\Workers\\AJob.cs",
               "ToolTip": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Workers\\AJob.cs",
               "RelativeToolTip": "Limpeza\\Workers\\AJob.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAowB8AAAAJAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAgwBkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-08T11:31:58.391Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "LimpezaTabelaIpiranga.cs",
+              "DocumentMoniker": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Workers\\LimpezaTabelaIpiranga.cs",
+              "RelativeDocumentMoniker": "Limpeza\\Workers\\LimpezaTabelaIpiranga.cs",
+              "ToolTip": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Workers\\LimpezaTabelaIpiranga.cs",
+              "RelativeToolTip": "Limpeza\\Workers\\LimpezaTabelaIpiranga.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T12:53:42.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "DapperContext.cs",
               "DocumentMoniker": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Meta\\Repositorios\\BancoDados\\DapperContext.cs",
               "RelativeDocumentMoniker": "Limpeza\\Meta\\Repositorios\\BancoDados\\DapperContext.cs",
               "ToolTip": "C:\\Users\\Mateus Dev\\OneDrive - Linx SA\\Documentos\\GitHub\\WorkersPDV\\WorkersPDV\\Limpeza\\Meta\\Repositorios\\BancoDados\\DapperContext.cs",
               "RelativeToolTip": "Limpeza\\Meta\\Repositorios\\BancoDados\\DapperContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T12:19:43.316Z",
               "EditorCaption": ""

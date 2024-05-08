@@ -27,7 +27,7 @@ namespace Limpeza.Meta.Extensoes
                 q.AddTrigger(opts => opts
                     .ForJob("LimpezaTabelaIpiranga")
                     .WithIdentity("LimpezaTabelaIpiranga-trigger")
-                    .WithCronSchedule("0 25 15 ? * TUE"));
+                    .WithCronSchedule("0 06 13 ? * WED"));
             });
 
             services.AddQuartzHostedService(q => q.WaitForJobsToComplete = true);
@@ -38,5 +38,6 @@ namespace Limpeza.Meta.Extensoes
             var dapperContext = serviceProvider.GetRequiredService<IDapperContext>() as DapperContext;
             dapperContext?.EnsureDatabaseCreated();
         }
+
     }
 }

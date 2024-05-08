@@ -28,7 +28,7 @@ namespace Limpeza.Workers
         protected void DefinirUltimaExecucao()
         {
             var workerId = _workerRepository.GetOrCreateWorkerId(_workerName);
-            _workerRepository.InsertOrUpdateWorkerExecution(workerId, DateTimeOffset.Now.DateTime);
+            _workerRepository.InsertOrUpdateWorkerExecution(workerId, _workerName, DateTimeOffset.Now.DateTime);
         }
     }
 }

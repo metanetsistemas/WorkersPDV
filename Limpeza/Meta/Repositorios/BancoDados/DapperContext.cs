@@ -28,6 +28,7 @@ namespace Limpeza.Meta.Repositorios.BancoDados
             command.CommandText = @"
         CREATE TABLE IF NOT EXISTS Workers (
             Id INTEGER PRIMARY KEY,
+            WorkerName TEXT NOT NULL,
             LastExecutionTime DATETIME
         );";
             connection.Open();
