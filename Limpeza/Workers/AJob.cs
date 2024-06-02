@@ -7,28 +7,38 @@ namespace Limpeza.Workers
     public abstract class AJob : IJob
     {
         protected IRegraTarefa RegraTarefa { get; private set; }
-
         private readonly IWorkerRepository _workerRepository;
-        private readonly string _workerName;
 
-        public AJob(IWorkerRepository workerRepository, IRegraTarefa regraTarefa, string workerName)
+        public AJob(IWorkerRepository workerRepository, IRegraTarefa regraTarefa)
         {
-            _workerRepository = workerRepository;
             RegraTarefa = regraTarefa;
-            _workerName = workerName;
+            _workerRepository = workerRepository;
         }
 
         public async Task Execute(IJobExecutionContext context)
         {
             await RegraTarefa.Executar(context);
-
-            DefinirUltimaExecucao();
+            DefinirUltimaExecucao(context);
         }
 
-        protected void DefinirUltimaExecucao()
+        protected void DefinirUltimaExecucao(IJobExecutionContext context)
         {
-            var workerId = _workerRepository.GetOrCreateWorkerId(_workerName);
-            _workerRepository.InsertOrUpdateWorkerExecution(workerId, _workerName, DateTimeOffset.Now.DateTime);
+            DateTime nextExecutionTime = CalculateNextExecutionTime(context);
+            string Description = context.MergedJobDataMap.GetString("descricao");
+
+            // Pegar a WithCronSchedule
+            string cronExpression = context.Trigger is ICronTrigger cronTrigger ? cronTrigger.CronExpressionString : null;
+
+            string workerName = context.JobDetail.Key.Name;
+            var workerId = _workerRepository.GetOrCreateWorkerId(workerName, Description);
+            _workerRepository.InsertOrUpdateWorkerExecution(workerId, workerName, Description, DateTimeOffset.Now.DateTime, nextExecutionTime, cronExpression);
+        }
+
+        protected DateTime CalculateNextExecutionTime(IJobExecutionContext context)
+        {
+            ICronTrigger trigger = context.Trigger as ICronTrigger;
+            var nextFireTime = trigger.GetFireTimeAfter(DateTimeOffset.Now);
+            return nextFireTime.HasValue ? nextFireTime.Value.LocalDateTime : DateTime.Now;
         }
     }
 }

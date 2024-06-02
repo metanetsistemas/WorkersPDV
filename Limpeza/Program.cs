@@ -1,11 +1,29 @@
 using Limpeza.Meta.Extensoes;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 
 var builder = Host.CreateDefaultBuilder(args)
     .UseWindowsService()
-    .ConfigureServices((hostContext, services) =>
+    .ConfigurarLog()
+    .ConfigureWebHostDefaults(webBuilder =>
     {
-        services.ConfigurarInjecaoDependencia();
-        services.ConfigurarQuartz();
+        webBuilder.ConfigureServices(services =>
+        {
+            services.AddControllers();  // Adiciona suporte a controllers
+            services.ConfigurarInjecaoDependencia();       
+            services.ConfigurarQuartz();
+        });
+        webBuilder.Configure(app =>
+        {
+            app.UseRouting();
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();  // Mapeia os controllers
+            });
+        });
     })
     .ConfigureAppConfiguration((hostingContext, config) =>
     {
@@ -13,6 +31,6 @@ var builder = Host.CreateDefaultBuilder(args)
     });
 
 var host = builder.Build();
-host.Services.CriarBancoDados();
 
+host.Services.CriarBancoDados();
 host.Run();

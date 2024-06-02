@@ -1,48 +1,35 @@
 <Project Sdk="Microsoft.NET.Sdk.Worker">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <UserSecretsId>dotnet-Limpeza-8d092b19-c0b1-4c3d-b7ce-972c55b10180</UserSecretsId>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>dotnet-Limpeza-8d092b19-c0b1-4c3d-b7ce-972c55b10180</UserSecretsId>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="Meta\AtualizacaoBD\**" />
-    <Compile Remove="Meta\Controllers\**" />
-    <Compile Remove="Meta\Repositorios\Modelo\**" />
-    <Compile Remove="Meta\Util\**" />
-    <Content Remove="Meta\AtualizacaoBD\**" />
-    <Content Remove="Meta\Controllers\**" />
-    <Content Remove="Meta\Repositorios\Modelo\**" />
-    <Content Remove="Meta\Util\**" />
-    <EmbeddedResource Remove="Meta\AtualizacaoBD\**" />
-    <EmbeddedResource Remove="Meta\Controllers\**" />
-    <EmbeddedResource Remove="Meta\Repositorios\Modelo\**" />
-    <EmbeddedResource Remove="Meta\Util\**" />
-    <None Remove="Meta\AtualizacaoBD\**" />
-    <None Remove="Meta\Controllers\**" />
-    <None Remove="Meta\Repositorios\Modelo\**" />
-    <None Remove="Meta\Util\**" />
-  </ItemGroup>
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Dapper" Version="2.1.35" />
-    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="8.0.4" />
-    <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="8.0.0" />
-    <PackageReference Include="Quartz" Version="3.8.1" />
-    <PackageReference Include="Quartz.Extensions.DependencyInjection" Version="3.8.1" />
-    <PackageReference Include="Quartz.Extensions.Hosting" Version="3.8.1" />
-    <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.1.8" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Dapper" Version="2.1.35" />
+		<PackageReference Include="Microsoft.Data.Sqlite.Core" Version="8.0.4" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="8.0.0" />
+		<PackageReference Include="Quartz" Version="3.8.1" />
+		<PackageReference Include="Quartz.Extensions.DependencyInjection" Version="3.8.1" />
+		<PackageReference Include="Quartz.Extensions.Hosting" Version="3.8.1" />
+		<PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.1.8" />
+		<PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="MetaAtualizacao">
-      <HintPath>MetaAtualizacao.dll</HintPath>
-    </Reference>
-    <Reference Include="Utilitarios">
-      <HintPath>Utilitarios.dll</HintPath>
-    </Reference>
-  </ItemGroup>
+	<ItemGroup>
+		<Reference Include="MetaAtualizacao">
+			<HintPath>MetaAtualizacao.dll</HintPath>
+		</Reference>
+		<Reference Include="Utilitarios">
+			<HintPath>Utilitarios.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
 </Project>

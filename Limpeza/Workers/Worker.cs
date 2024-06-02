@@ -21,18 +21,25 @@ namespace Limpeza.Workers
 
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            _scheduler = await _schedulerFactory.GetScheduler(stoppingToken);
-            _logger.LogInformation("Scheduler started.");
+            //try
+            //{
+            //    _scheduler = await _schedulerFactory.GetScheduler(stoppingToken);
+            //    _logger.LogInformation("Scheduler started.");
 
-            var lastExecutionTime = _repository.GetLastExecutionTime(1); // Assuming 1 for CleanupJob
-            if (NeedsCatchUp(lastExecutionTime))
-            {
-                _logger.LogInformation("Realizando catch-up da execução perdida.");
-                await _scheduler.TriggerJob(new JobKey("CleanupJob"));
-            }
+            //    var lastExecutionTime = _repository.GetLastExecutionTime(1); // Assuming 1 for CleanupJob
+            //    if (NeedsCatchUp(lastExecutionTime))
+            //    {
+            //        _logger.LogInformation("Realizando catch-up da execução perdida.");
+            //        await _scheduler.TriggerJob(new JobKey("CleanupJob"));
+            //    }
 
-            await _scheduler.Start(stoppingToken);
-            await Task.Delay(-1, stoppingToken); // Manter o serviço ativo
+            //    await _scheduler.Start(stoppingToken);
+            //    await Task.Delay(-1, stoppingToken); // Manter o serviço ativo
+            //}
+            //catch (Exception)
+            //{ }
+
+            await Task.CompletedTask;
         }
 
         private bool NeedsCatchUp(DateTimeOffset? lastExecutionTime)
